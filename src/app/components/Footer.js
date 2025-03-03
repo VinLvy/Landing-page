@@ -21,10 +21,10 @@ export default function Footer() {
 
           {/* Navigasi Footer */}
           <div className="flex space-x-6 mb-4 md:mb-0">
-            <Link href="/" className="hover:text-white transition">Home</Link>
-            <Link href="/about" className="hover:text-white transition">About</Link>
-            <Link href="/projects" className="hover:text-white transition">Projects</Link>
-            <Link href="/contact" className="hover:text-white transition">Contact</Link>
+            <Link href="#hero" className="hover:text-white transition">Home</Link>
+            <Link href="#about" className="hover:text-white transition">About</Link>
+            <Link href="#features" className="hover:text-white transition">Features</Link>
+            <Link href="#projects" className="hover:text-white transition">Projects</Link>
           </div>
 
           {/* Social Media Icons */}

@@ -3,7 +3,7 @@ import { ChevronDown } from "lucide-react";
 
 export default function Hero() {
   return (
-    <section className="relative h-screen flex flex-col justify-center items-center text-white text-center px-4">
+    <section id="hero" className="relative h-screen flex flex-col justify-center items-center text-white text-center px-4">
       <div className="absolute inset-0">
         <Image
           src="https://images.unsplash.com/photo-1620641788421-7a1c342ea42e?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8MHx8fA%3D%3D"

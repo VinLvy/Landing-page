@@ -23,7 +23,7 @@ const projects = [
 
 export default function Projects() {
     return (
-        <section className="py-16 bg-gray-100 dark:bg-gray-900">
+        <section id="projects" className="py-16 bg-gray-100 dark:bg-gray-900">
             <div className="max-w-6xl mx-auto px-6 text-center">
                 <h2 className="text-3xl font-bold text-center text-gray-800 mb-6 dark:text-white">
                     Projects Kami
