@@ -2,8 +2,9 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Features from "./components/Features";
 import Projects from "./components/Projects";
-import Footer from "./components/Footer";
 import Testimonials from "./components/Testimonials";
+import Pricing from "./components/Pricing";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Features />
       <Projects />
       <Testimonials />
+      <Pricing />
       <Footer />
     </main>
   );
