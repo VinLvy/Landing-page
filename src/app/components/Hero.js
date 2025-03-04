@@ -12,7 +12,8 @@ export default function Hero() {
           objectFit="cover"
           priority
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-gray-100 dark:to-gray-900"></div>
+        <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-gray-900 dark:to-gray-900"></div>
+
       </div>
       <div className="relative z-10">
         <h1 className="text-4xl sm:text-6xl font-bold">Selamat Datang di QuantumTech</h1>
