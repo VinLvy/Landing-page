@@ -3,20 +3,20 @@ import Image from "next/image";
 const projects = [
     {
         id: 1,
-        name: "Landing Page Design",
-        description: "Desain landing page modern dan responsif untuk startup.",
+        name: "Landing Page Startup",
+        description: "Desain landing page modern dan responsif untuk startup. Proyek ini dirancang untuk meningkatkan konversi pengguna dengan tampilan yang menarik dan navigasi yang mudah. Kami menggunakan teknologi terbaru seperti Next.js dan Tailwind CSS untuk memastikan kecepatan dan performa yang optimal.",
         image: "/images/project1.png",
     },
     {
         id: 2,
-        name: "E-Commerce Website",
-        description: "Toko online dengan fitur cart dan pembayaran online.",
+        name: "Point of Sale System",
+        description: "Sistem POS yang memudahkan pengelolaan transaksi bisnis secara efisien. Aplikasi ini dilengkapi dengan fitur pencatatan stok barang, laporan penjualan, dan integrasi dengan berbagai metode pembayaran digital untuk memudahkan transaksi pelanggan.",
         image: "/images/project2.png",
     },
     {
         id: 3,
         name: "Company Profile",
-        description: "Website profil perusahaan dengan informasi lengkap.",
+        description: "Website profil perusahaan yang menampilkan informasi lengkap tentang layanan, visi, dan misi perusahaan. Kami memastikan desain yang profesional dengan tata letak yang bersih dan responsif agar mudah diakses oleh calon klien dan mitra bisnis.",
         image: "/images/project3.png",
     },
 ];
