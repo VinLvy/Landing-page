@@ -1,3 +1,5 @@
+import { CheckCircle } from "lucide-react";
+
 export default function Pricing() {
     const pricingPlans = [
         {
@@ -36,27 +38,30 @@ export default function Pricing() {
     ];
 
     return (
-        <section id="pricing" className="py-16 bg-gray-100 dark:bg-gray-900">
+        <section id="pricing" className="py-16 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 text-white">
             <div className="max-w-6xl mx-auto px-6 text-center">
-                <h2 className="text-3xl font-bold text-gray-800 dark:text-white mb-6">Paket Harga</h2>
-                <p className="text-gray-600 dark:text-gray-300 mb-10">
+                <h2 className="text-4xl font-bold mb-6">Paket Harga</h2>
+                <p className="text-gray-300 mb-10">
                     Pilih paket yang sesuai dengan kebutuhan proyek Anda.
                 </p>
                 <div className="grid md:grid-cols-3 gap-8">
                     {pricingPlans.map((plan) => (
-                        <div key={plan.id} className="p-6 bg-white dark:bg-gray-800 shadow-lg rounded-lg text-center">
-                            <h3 className="text-2xl font-semibold text-gray-900 dark:text-white">{plan.name}</h3>
-                            <p className="text-xl text-gray-700 dark:text-gray-300 mt-2">{plan.price}</p>
-                            <ul className="mt-4 space-y-2 text-gray-600 dark:text-gray-300 text-left">
+                        <div 
+                            key={plan.id} 
+                            className="relative p-8 bg-gray-800 rounded-2xl shadow-xl overflow-hidden text-center transform hover:scale-105 transition duration-300"
+                        >
+                            <h3 className="text-2xl font-semibold text-white">{plan.name}</h3>
+                            <p className="text-3xl font-bold text-blue-400 mt-4">{plan.price}</p>
+                            <ul className="mt-6 space-y-3 text-gray-300 text-left">
                                 {plan.features.map((feature, index) => (
-                                    <li key={index} className="flex items-center gap-2">
-                                        ✅ {feature}
+                                    <li key={index} className="flex items-center gap-3">
+                                        <CheckCircle className="text-blue-400" size={20} /> {feature}
                                     </li>
                                 ))}
                             </ul>
-                            <button className="mt-6 px-4 py-2 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition">
+                            {/* <button className="mt-6 px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition">
                                 Pilih Paket
-                            </button>
+                            </button> */}
                         </div>
                     ))}
                 </div>
