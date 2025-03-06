@@ -40,8 +40,8 @@ export default function Pricing() {
     return (
         <section id="pricing" className="py-16 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 text-white">
             <div className="max-w-6xl mx-auto px-6 text-center">
-                <h2 className="text-4xl font-bold mb-6">Paket Harga</h2>
-                <p className="text-gray-300 mb-10">
+                <h2 className="text-3xl font-bold text-gray-800 dark:text-white">Paket Harga</h2>
+                <p className="text-gray-600 dark:text-gray-300 mt-2 mb-10">
                     Pilih paket yang sesuai dengan kebutuhan proyek Anda.
                 </p>
                 <div className="grid md:grid-cols-3 gap-8">

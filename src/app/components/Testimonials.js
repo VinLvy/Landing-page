@@ -26,7 +26,6 @@ export default function Testimonials() {
         <p className="text-gray-600 dark:text-gray-300 mt-2">
           Berikut adalah beberapa ulasan dari pengguna kami yang puas.
         </p>
-
         <div className="grid md:grid-cols-3 gap-8 mt-10">
           {testimonials.map((testimonial, index) => (
             <div

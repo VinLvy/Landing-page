@@ -32,8 +32,8 @@ export default function FAQ() {
     return (
         <section id="faq" className="py-16 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 text-white">
             <div className="max-w-4xl mx-auto px-6 text-center">
-                <h2 className="text-4xl font-bold mb-6">Pertanyaan yang Sering Diajukan</h2>
-                <p className="text-gray-300 mb-10">
+                <h2 className="text-3xl font-bold text-gray-800 dark:text-white">Pertanyaan yang Sering Diajukan</h2>
+                <p className="text-gray-600 dark:text-gray-300 mt-2 mb-10">
                     Temukan jawaban untuk pertanyaan umum terkait layanan kami.
                 </p>
                 <div className="space-y-6">
