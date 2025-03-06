@@ -20,7 +20,10 @@ const features = [
 
 export default function Features() {
   return (
-    <section id="features" className="py-16 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 text-white">
+    <section 
+      id="features" 
+      className="pt-10 pb-16 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 text-white border-t border-gray-700"
+    >
       <div className="max-w-6xl mx-auto px-6 text-center">
         <h2 className="text-3xl font-bold text-gray-800 dark:text-white">Fitur Unggulan</h2>
         <p className="text-gray-600 dark:text-gray-300 mt-2">
