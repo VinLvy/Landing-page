@@ -26,6 +26,7 @@ export default function Footer() {
             <Link href="#features" className="hover:text-white transition">Features</Link>
             <Link href="#projects" className="hover:text-white transition">Projects</Link>
             <Link href="#testimonials" className="hover:text-white transition">Testimonials</Link>
+            <Link href="#pricing" className="hover:text-white transition">Pricing</Link>
           </div>
 
           {/* Social Media Icons */}
