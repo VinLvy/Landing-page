@@ -50,9 +50,11 @@ export default function FAQ() {
                                     className={`text-blue-400 transition-transform duration-300 ${openIndex === index ? 'rotate-180' : ''}`}
                                 />
                             </div>
-                            {openIndex === index && (
+                            <div 
+                                className={`transition-all duration-500 overflow-hidden ${openIndex === index ? 'max-h-40 opacity-100' : 'max-h-0 opacity-0'}`}
+                            >
                                 <p className="text-gray-300 mt-3">{faq.answer}</p>
-                            )}
+                            </div>
                         </div>
                     ))}
                 </div>
