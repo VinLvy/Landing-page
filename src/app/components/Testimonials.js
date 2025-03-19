@@ -2,12 +2,12 @@ import { Star, UserCircle } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Budi Santoso",
+    name: "Ahmad Santoso",
     feedback: "Produk ini sangat membantu pekerjaan saya, tampilannya intuitif dan mudah digunakan.",
     rating: 5,
   },
   {
-    name: "Siti Aisyah",
+    name: "Siti Nurbaya",
     feedback: "Keamanan data yang diberikan sangat terjamin, saya merasa lebih aman menggunakannya.",
     rating: 5,
   },
