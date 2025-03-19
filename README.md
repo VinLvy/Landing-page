@@ -13,7 +13,11 @@ This is a **Landing Page** project built with [Next.js](https://nextjs.org), des
 - **Contact Us Section**: Form to get in touch
 - **Footer**: Additional links and company info
 
-## Learn More
+## 🌎 Live Demo  
+Check out the live version of this project:  
+🔗 **[Landing Page on Vercel](https://landing-page-bay-ten.vercel.app/)**  
+
+## 📖 Learn More
 
 To learn more about Next.js, take a look at the following resources:
 
@@ -22,7 +26,7 @@ To learn more about Next.js, take a look at the following resources:
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## 🚀 Deploy on Vercel
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
