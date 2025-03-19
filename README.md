@@ -1,24 +1,17 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Next.js Landing Page
 
-## Getting Started
+This is a **Landing Page** project built with [Next.js](https://nextjs.org), designed with reusable components.
 
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## ✨ Features
+- **Hero Section**: Main banner with a call-to-action
+- **About Section**: Short introduction about the business
+- **Features Section**: List of key features or services
+- **Projects Section**: Showcase of past work or portfolio
+- **Testimonials Section**: Customer reviews and feedback
+- **Pricing Section**: Available pricing plans
+- **FAQ Section**: Frequently asked questions
+- **Contact Us Section**: Form to get in touch
+- **Footer**: Additional links and company info
 
 ## Learn More
 
