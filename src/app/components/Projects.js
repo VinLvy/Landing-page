@@ -25,8 +25,8 @@ export default function Projects() {
     return (
         <section id="projects" className="py-16 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 text-white">
             <div className="max-w-6xl mx-auto px-6 text-center">
-                <h2 className="text-3xl font-bold text-gray-800 dark:text-white">Projects Kami</h2>
-                <p className="text-gray-600 dark:text-gray-300 mt-2">
+                <h2 className="text-3xl font-bold text-white">Projects Kami</h2>
+                <p className="text-gray-300 mt-2">
                     Berikut adalah beberapa projects yang telah kami kerjakan untuk klien kami.
                 </p>
                 <div className="mt-10 space-y-12">
@@ -46,10 +46,10 @@ export default function Projects() {
                                 />
                             </div>
                             <div className="w-full md:w-1/2 text-left">
-                                <h3 className="text-2xl font-semibold text-gray-900 dark:text-white">
+                                <h3 className="text-2xl font-semibold text-white">
                                     {project.name}
                                 </h3>
-                                <p className="text-gray-600 mt-2 dark:text-gray-300">
+                                <p className="mt-2 text-gray-300">
                                     {project.description}
                                 </p>
                             </div>
