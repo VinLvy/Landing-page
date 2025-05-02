@@ -31,7 +31,7 @@ export default function Footer() {
           </div>
 
           {/* Social Media Icons */}
-          <div className="flex justify-center md:justify-end space-x-4 w-full md:w-auto">
+          <div className="flex justify-center md:justify-end space-x-4 w-full md:w-auto mb-5">
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">
               <FontAwesomeIcon icon={faFacebookF} size="lg" className="text-white w-6 h-6" />
             </a>
