@@ -25,8 +25,8 @@ export default function Features() {
       className="pt-10 pb-16 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 text-white border-t border-gray-700"
     >
       <div className="max-w-6xl mx-auto px-6 text-center">
-        <h2 className="text-3xl font-bold text-gray-800 dark:text-white">Fitur Unggulan</h2>
-        <p className="text-gray-600 dark:text-gray-300 mt-2">
+        <h2 className="text-3xl font-bold text-gray-800 text-white">Fitur Unggulan</h2>
+        <p className="text-gray-300 mt-2">
           Berikut adalah beberapa fitur utama yang membuat produk kami unggul.
         </p>
 
@@ -34,11 +34,11 @@ export default function Features() {
           {features.map((feature, index) => (
             <div
               key={index}
-              className="p-6 bg-white dark:bg-gray-800 rounded-2xl shadow-md transform transition duration-300 hover:scale-105"
+              className="p-6 bg-gray-800 rounded-2xl shadow-md transform transition duration-300 hover:scale-105"
             >
               <div className="flex justify-center mb-4">{feature.icon}</div>
-              <h3 className="text-xl font-semibold text-gray-800 dark:text-white">{feature.title}</h3>
-              <p className="text-gray-600 dark:text-gray-300 mt-2">{feature.description}</p>
+              <h3 className="text-xl font-semibold text-white">{feature.title}</h3>
+              <p className="text-gray-300 mt-2">{feature.description}</p>
             </div>
           ))}
         </div>
