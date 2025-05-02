@@ -2,8 +2,8 @@ export default function About() {
   return (
     <section id="about" className="py-16 bg-gray-100 bg-gray-900">
       <div className="max-w-6xl mx-auto px-6 text-center">
-        <h2 className="text-5xl font-extrabold text-blue-400">QuantumTech: Membangun Masa Depan</h2>
-        <p className="text-gray-300 dark:text-gray-300 mt-6 text-xl max-w-3xl mx-auto">
+        <h2 className="text-4xl font-extrabold text-blue-400">QuantumTech: Membangun Masa Depan</h2>
+        <p className="text-gray-300 dark:text-gray-300 mt-6 text-xl max-w-2xl mx-auto">
           Kami adalah pelopor dalam inovasi digital dan kecerdasan buatan, menghadirkan teknologi mutakhir untuk membantu bisnis berkembang lebih cepat dan lebih efisien.
         </p>
 

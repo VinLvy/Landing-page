@@ -8,11 +8,11 @@ config.autoAddCss = false;
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-800 text-gray-300 py-6">
-      <div className="max-w-6xl mx-auto px-6">
-        <div className="flex flex-col md:flex-row justify-between items-center text-center md:text-left">
+    <footer className="bg-gray-800 text-gray-300 py-6 w-full">
+      <div className="max-w-6xl mx-auto px-6 w-full">
+        <div className="flex flex-col md:flex-row justify-between items-center md:items-start text-center md:text-left w-full gap-6">
           {/* Logo & Copyright */}
-          <div className="mb-4 md:mb-0">
+          <div className="w-full md:w-auto">
             <h2 className="text-xl font-semibold text-white">QuantumTech</h2>
             <p className="text-gray-400 text-sm mt-1">
               © {new Date().getFullYear()} All Rights Reserved.
@@ -20,7 +20,7 @@ export default function Footer() {
           </div>
 
           {/* Navigasi Footer */}
-          <div className="flex space-x-6 mb-4 md:mb-0">
+          <div className="flex flex-wrap justify-center md:justify-start gap-x-6 gap-y-2 w-full md:w-auto">
             <Link href="#hero" className="hover:text-white transition">Home</Link>
             <Link href="#about" className="hover:text-white transition">About</Link>
             <Link href="#features" className="hover:text-white transition">Features</Link>
@@ -31,7 +31,7 @@ export default function Footer() {
           </div>
 
           {/* Social Media Icons */}
-          <div className="flex space-x-4">
+          <div className="flex justify-center md:justify-end space-x-4 w-full md:w-auto">
             <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="hover:text-white transition">
               <FontAwesomeIcon icon={faFacebookF} size="lg" className="text-white w-6 h-6" />
             </a>
