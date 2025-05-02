@@ -8,7 +8,7 @@ export default function ContactUs() {
         <section id="contact" className="py-16 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 text-white">
             <div className="max-w-6xl mx-auto px-6">
                 <h2 className="text-4xl font-bold text-center">Hubungi Kami</h2>
-                <p className="text-gray-400 text-center mt-2">Kami siap membantu! Silakan kirim pesan atau hubungi kami.</p>
+                <p className="text-gray-300 text-center mt-2">Kami siap membantu! Silakan kirim pesan atau hubungi kami.</p>
 
                 <div className="grid md:grid-cols-2 gap-10 mt-12">
                     {/* Formulir Kontak */}
